@@ -27,4 +27,9 @@ public class ItemService {
     public Item fineOne(Long itemId) {
         return itemRepository.findOne(itemId);
     }
+
+    //==비즈니스 로직==//
+    public void cancel() {
+
+    }
 }
